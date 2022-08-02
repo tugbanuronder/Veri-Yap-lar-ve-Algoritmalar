@@ -7,11 +7,13 @@
 
 **1.Adım**
 İlk eleman olan 22 kendi başına sıralı olmaktadır. Bir işlem gerektirmez.
+ 
  **[22|,27,16,2,18,6]**
 
 **2.Adım**
 22 ile 27 yi karşılaştırır. 27 elemanı 22'den büyük olduğu için bir işlem gerçekleşmez.
- **[22,27|,16,2,18,6]**
+
+**[22,27|,16,2,18,6]**
 
 **3.Adım**
 16 elemanı ile gerisindeki sayılar kıyaslanır. 16, 27'den küçük olduğu için yer değiştirir. Daha sonra 16 ile 22 kıyaslanır ve 16, 22'den küçük olduğun için yer değiştirirler.
@@ -20,11 +22,13 @@
 
 **4.Adım**
 Uyguladığımız işlemleri 2 elemanı için tekrarlayarak diziyi sıralarız.
- **[2,16,22,27|,18,6]**
+
+**[2,16,22,27|,18,6]**
 
 **5.Adım**
 Uyguladığımız işlemleri 18 elemanı için tekrarlayarak diziyi sıralarız.
- **[2,16,18,22,27|,6]**
+
+**[2,16,18,22,27|,6]**
 
 **6.Adım**
 Uyguladığımız işlemleri 6 elemanı için tekrarlayarak diziyi sıralarız.
